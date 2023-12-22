@@ -1,0 +1,51 @@
+.container {
+  /* margin-top: 25vh; */
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Afacad", sans-serif;
+  border-radius: 10px;
+  /* border: 1px solid ghostwhite; */
+  background: rgb(89, 87, 168);
+  color:  whitesmoke;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(166,132,182,1) 80%, rgba(158,136,186,1) 100%, rgba(0,212,255,1) 100%);
+}
+body {
+  background-image: url("/images/photo.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.header{
+  font-size: 44px;
+  color: goldenrod;
+  font-weight: bold;
+}
+h4{
+  font-size: 23px;
+
+}
+#sum-el, #cards-el{
+  font-size: 25px;
+}
+
+button{
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+  background: rgb(27, 26, 27);
+  color: goldenrod;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+#status-el{
+  font-size: 23px;
+}
+#info-el{
+  font-size: 24px;
+  padding-top: 20px;
+  /* color: green; */
+  /* margin-bottom: 10px; */
+}
